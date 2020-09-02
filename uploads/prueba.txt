@@ -1,3 +1,0 @@
- D CHANGELOG.txt
- D COPYRIGHT.txt
- M authorize.php

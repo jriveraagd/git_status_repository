@@ -38,7 +38,7 @@ app.post('/', function(req, res){
             
             avatar.mv('./uploads/' + avatar.name);
 
-			fs.readFile('/home/apps/socket_io/uploads/' + avatar.name,"utf8", (err, data) => {
+			fs.readFile('/home/apps/git_status_repository/uploads/' + avatar.name,"utf8", (err, data) => {
 			  if (err) {
 			    console.error(err)
 			    return
