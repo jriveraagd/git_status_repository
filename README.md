@@ -19,10 +19,7 @@
     • Listo. Cada vez que una persona modifica algun archivo/directorio de cualquier formato del proyecto clonado en la maquina cliente se verá reflejado en este panel.
  
  
-
-## Running the application
-Assuming that node Js is already installed, traverse to the project location and execute the command - node index.js and hit the url (http://localhost:8080) to access the vhat application.
-
+## Emit cheatsheet
 
 ```sh
 socket.emit('message', "this is a test"); # //sending to sender-client only
