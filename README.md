@@ -1,4 +1,4 @@
-# git_status_repository
+# Git Status Repository
 
 ### A continuación se detalla los pasos necesarios para hacer funcionar el servicio de comparación de archivos:
  
