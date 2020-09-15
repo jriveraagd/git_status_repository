@@ -1,8 +1,6 @@
-# Node Socket Webhook
-Node Js Socket IO Example
+# git_status_repository
 
-
-## A continuación se detalla los pasos necesarios para hacer funcionar el servicio de comparación de archivos:
+### A continuación se detalla los pasos necesarios para hacer funcionar el servicio de comparación de archivos:
  
 ### Maquina Cliente:
   1. Clonar un proyecto de github en la maquina cliente(ej playa, acopio, mayoliva). 
