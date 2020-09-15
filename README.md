@@ -17,6 +17,8 @@
   3. node index.js
   4. ir a http://172.30.0.136:8080/listar
     - Listo. Cada vez que una persona modifica algun archivo/directorio de cualquier formato del proyecto clonado en la maquina cliente se verá reflejado en este panel.
+    - See HTML in the right
+  - Magic
  
  
 ## Emit cheatsheet
