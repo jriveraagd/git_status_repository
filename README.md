@@ -1,6 +1,27 @@
 # Node Socket Webhook
 Node Js Socket IO Example
 
+
+## A continuación se detalla los pasos necesarios para hacer funcionar el servicio de comparación de archivos:
+ 
+### Maquina Cliente:
+  1. Clonar un proyecto de github en la maquina cliente(ej playa, acopio, mayoliva). 
+    • Ej: git clone  https://github.com/aceitera-general-deheza/mayolivawebsite.git
+  2. Crear una tarea programada que se ejecute cada 5 min. Y el archivo a ejecutar se descarga de:
+    • https://github.com/jriveraagd/git_status_repository/blob/master/task_prueba.bat
+  3. Listo. Cada vez que una persona modifica algún archivo/directorio de cualquier formato dentro del directorio donde se clono el proyecto automáticamente lo vas a ver reflejado en el siguiente panel..
+ 
+ 
+### Maquina Servidor
+ 
+  1. git clone https://github.com/jriveraagd/git_status_repository.git
+  2. npm install
+  3. node index.js
+  4. ir a http://172.30.0.136:8080/listar
+    • Listo. Cada vez que una persona modifica algun archivo/directorio de cualquier formato del proyecto clonado en la maquina cliente se verá reflejado en este panel.
+ 
+ 
+
 ## Running the application
 Assuming that node Js is already installed, traverse to the project location and execute the command - node index.js and hit the url (http://localhost:8080) to access the vhat application.
 
