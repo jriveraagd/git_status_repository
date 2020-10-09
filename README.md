@@ -19,6 +19,8 @@
    * Listo. Cada vez que una persona modifica algun archivo/directorio de cualquier formato del proyecto clonado en la maquina cliente se verá reflejado en este panel.
  
  
+![](capture_git_status.png) 
+ 
 ## Emit cheatsheet
 
 ```sh
